@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./Portfolio.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="./Home.html">Home</a></li>
+                    <li><a href="./About.html">About</a></li>
+                    <li><a href="./Education.html">Education</a></li>
+                    <li><a href="./Skills.html">Skills</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="pic">
+                <div class="text">
+                    <h1>Hi, I'm <span>Ajay</span> <br> Singh From Benglore</h1>
+                   <p>Devloper</p>
+                   <button><a class="down" href="./ajayresume.pdf" download>Download CV</a></button>
+                   <button>Submit</button>
+                </div>
+                <div >
+                    <img class=" photo" src="./Photo_1690178848851.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+ <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <h1 class="title">About Me</h1>
+                    <p>Hi! My name is Ajay Singh. I'm a Java full Stack devloprer, and I'm <br>very passionate and dedicated to my
+                    work. I have acquired the skills <br>and knowledge neccessary to make your project a success.</p>
+                    <div class="titles">
+                        <p class="links active" onclick="opentab('skills')">Skills</p>
+                        <p class="links active" onclick="opentab('experince')">Experince</p>
+                        <p class="links active" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="contents tab" id="skills">
+                        <ul>
+                            <li>Java Devloper</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Java Script</li>
+                            <li>Oracle SQL</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="contents" id="experince">
+                        <ul>
+                            <li><span>2022-2023</span><br>Service Engineer</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Java Script</li>
+                            <li>Oracle SQL</li>
+                        </ul>
+                    </div>
+                    <div class="contents" id="education">
+                        <ul>
+                            <li><span>2012-2014</span><br>High School from AIC Gorakhpur</li>
+                            <li><span>2014-2017</span><br>Secondary from KIC Gorakhpur</li>
+                            <li><span>2017-2021</span><br>Btech from BCET Durgapur</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="./Portfolio.js"></script>
+</body>
+</html>
